@@ -5,5 +5,6 @@ public class Card {
 
     public Card(String suit){
         this.suit = suit;
+        this.rank = rank;
     }
 }
