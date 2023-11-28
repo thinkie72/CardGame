@@ -27,6 +27,7 @@ public class Card {
 
     public void setSuit(String suit) {
         this.suit = suit;
+        this.rank = rank;
     }
 
     public void setRank(String rank) {
