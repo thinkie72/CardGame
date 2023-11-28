@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class Player {
     private String name;
     private ArrayList<Card> hand;
+    // unused in this game
     private int points;
 
     public Player(String name) {
@@ -18,6 +19,7 @@ public class Player {
         this.hand.addAll(hand);
     }
 
+    // accessor methods for instance variables
     public String getName() {
         return name;
     }
@@ -34,6 +36,7 @@ public class Player {
         points += num;
     }
 
+    // adds a card to the players hand, key for dealing and drawing
     public void addCard(Card c) {
         hand.add(c);
     }
